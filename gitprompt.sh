@@ -96,3 +96,5 @@ function setGitPrompt() {
 
 PROMPT_COMMAND=setGitPrompt
 
+alias ls='ls --color=auto'
+
