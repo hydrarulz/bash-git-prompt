@@ -14,6 +14,7 @@ BGreen="\[\033[1;32m\]"       # Green
 
 # High Intensty
 IBlack="\[\033[0;90m\]"       # Black
+White="\[\033[1;37m\]"	      # White
 
 # Bold High Intensty
 Magenta="\[\033[1;95m\]"     # Purple
@@ -37,7 +38,7 @@ GIT_PROMPT_REMOTE=" "
 GIT_PROMPT_UNTRACKED="…"
 GIT_PROMPT_CLEAN="${BGreen}V"
 
-PROMPT_START="$BGreen$CurrentUser@$CurrentHostname$IBlack$Time24a$ResetColor$Yellow$PathShort$ResetColor"
+PROMPT_START="$BGreen$CurrentUser@$CurrentHostname$White$Time24a$ResetColor$Yellow$PathShort$ResetColor"
 PROMPT_END=" \r\n\$ "
 
 
